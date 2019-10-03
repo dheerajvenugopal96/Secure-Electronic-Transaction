@@ -1,0 +1,123 @@
+.container {
+    background:url("../images/card.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+.paymentbox {
+    background: url("../images/visa.png") no-repeat 400px -5px;
+    padding: 20px;
+}
+
+.paymentbox p {
+    color: #000000;
+    font-size: 20px;
+    font-family: candara;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+
+input.name {
+    width: 70%;
+    padding: 10px 0;
+    font-size: 18px;
+    margin: 15px 0;
+    border: none;
+    outline: none;
+    text-indent: 5px;
+    color: #FFFFFF;
+    background-color: rgba(80, 119, 136, 0);
+}
+
+input.ac {
+    width: 92%;
+    padding: 10px 40px 10px 0;
+    font-size: 18px;
+    margin: 15px 0;
+    border: none;
+    outline: none;
+    text-indent: 5px;
+    color: #FFFFFF;
+    background: rgba(80, 119, 136, 0) url("../images/card.png") no-repeat 475px 9px;
+}
+
+.exp {
+    float: left;
+    width: 45%;
+    margin-right: 45px;
+}
+input.expire {
+    width: 100%;
+    margin: 15px 0 0 0;
+    padding: 10px 0;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    text-indent: 5px;
+    background-color: rgba(80, 119, 136, 0);
+}
+
+.cvv {
+    width: 45%;
+    float: left;
+}
+
+input.cvvv {
+    width: 100%;
+    margin: 15px 0 0 0;
+    padding: 10px 0;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    text-indent: 5px;
+    background-color: rgba(80, 119, 136, 0);
+}
+
+input.name:hover, input.ac:hover, input.expire:hover, input.cvvv:hover {
+    outline: 1px solid #EEE;
+      -webkit-transition: all 0.1s ease-in-out;
+      -moz-transition: all 0.1s ease-in-out;
+      -o-transition: all 0.1s ease-in-out;
+      transition: all 0.1s ease-in-out;
+}
+
+::-webkit-input-placeholder {
+   color: #FFF;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #FFF;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #FFF;  
+}
+
+:-ms-input-placeholder {  
+   color: #FFF;  
+}
+
+button.pay {
+    background-color: black;
+    border:none;
+    cursor: pointer;
+    color: #EEE;
+    margin: 0 0 0 65%;
+    font-weight: bold;
+    font-size: 20px;
+}
+button.pay:hover {
+    color: #FFF;
+}
+
+.paymentbox select
+{
+    width: 100%;
+    margin-bottom: 2%;
+}
